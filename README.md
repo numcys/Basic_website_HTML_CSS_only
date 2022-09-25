@@ -1,7 +1,7 @@
 # Hacktoberfest 2021
 
 <div align="center">
-  <img src="IMG/1080x360.jpg" />
+  <img src="img/1080x360.jpg" />
   </div>
 Follow the README below to get started!
 # This is a website designed with HTML5 and CSS3 only.
