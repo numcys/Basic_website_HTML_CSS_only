@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid #ccc;
+    border-radius: 50px;
+}
+.nav-list{
+    width: 50%;
+    /* background-color: rgb(80, 79, 79); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(209, 209, 191);
+}
+.rightnav{
+    width: 50%;
+    /* background-color: cornflowerblue; */
+    text-align: right;
+}
+
+#search{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 7px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/city.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* align-items: left; */
+    flex-direction: column;
+}
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    width: 90%;
+    border: 3px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 37px;
+    /* text-align: center; */
+    padding: 5px;
+    
+}
+.text-small{
+    font-size: 20px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-s{
+    display: flex;
+    align-self: flex-start;
+}
+.btn-sm{
+    margin-right: 10px;
+    /* padding: 6px 10px; */
+    border-radius: 5px;
+    /* vertical-align: middle; */
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 60px 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+.fluid-img img{
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 130px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+}
+.sectiontag{
+    padding: 16px 0px;
+}
+.sectionsubtag{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
