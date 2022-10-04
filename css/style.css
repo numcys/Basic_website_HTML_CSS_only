@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -154,6 +155,65 @@
 .sectionsubtag{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* contributing section styles */
+.contributing-heading{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.contributing-heading h1:hover{
+    color:#48abe0;
+}
+.box{
+    display: flex;
+}
+.contributors-2022 {
+    font-family: "poppins", sans-serif;
+    height: 400px;
+    width: 600px;
+    margin: 40px 0px;
+    background-color: #1d2d44;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 10px #48abe0;
+    margin-left: 180px;
+  }
+  .contributors-heading {
+    font-size: 2rem;
+    color: #90e0ef;
+  }
+ 
+  .inner-box1 ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+  li{
+    font-size: 1.3rem;
+    padding: 5px;
+  }
+  ul li::marker {
+    color: white;
+    font-size: 1.5rem;
+  }
+ a{
+   font-weight: 600;
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.5rem;
+ }
+ a:hover {
+    text-decoration: underline;
+    color: #e7c6ff;
+  }
+
+
+
+
 
 
 footer{
