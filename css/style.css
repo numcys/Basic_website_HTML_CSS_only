@@ -175,13 +175,12 @@
 .contributors-2022 {
     font-family: "poppins", sans-serif;
     height: 400px;
-    width: 600px;
-    margin: 40px 0px;
+    width: 70%;
+    margin: 40px auto;
     background-color: #1d2d44;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0 0 5px 10px #48abe0;
-    margin-left: 180px;
   }
   .contributors-heading {
     font-size: 2rem;
