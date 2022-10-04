@@ -132,9 +132,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
-    padding: 60px 20px;
+    padding: 10px 0px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -143,20 +143,45 @@
 }
 .fluid-img img{
     width: 250px;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 130px;
-    border: 2px solid #ccc;
-    border-radius: 25px;
+    padding: 7px;
+    margin: 17px;
+    border: 2px solid #631e1e;
+    border-radius: 134px;
 }
 .sectiontag{
-    padding: 16px 0px;
+    padding: 6px 0px;
 }
 .sectionsubtag{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
+footer{
+    background-color: black;
+    color: white;
+}
 
+.foot {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
 
+.fa-brands, .fab {
+    font-weight: 400;
+    margin: 12px;
+    padding: 2px;
+    margin-top: 32px;
+}
 
+ul{
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    margin-left: 30%;
+}
+p{
+    margin: 6px;
+    padding: 4px;
+
+}
