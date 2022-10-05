@@ -162,16 +162,6 @@
 .btn:not(:disabled):active {
   transform: translateY(0.125rem);
 }
-.btn-s {
-  display: flex;
-  align-self: flex-start;
-}
-.btn-sm {
-  margin-right: 10px;
-  /* padding: 6px 10px; */
-  border-radius: 5px;
-  /* vertical-align: middle; */
-}
 
 /* remaining sections styling */
 .section {
