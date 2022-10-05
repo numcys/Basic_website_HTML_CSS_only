@@ -7,15 +7,8 @@
  }
  
  /* navigation styling */
- .navbar{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
- }
+ 
+ 
  .logo{
      width: 10rem;
      display: flex;
@@ -26,28 +19,7 @@
      width: 33%;
      border: 3px solid #ccc;
      border-radius: 50px;
- }
- .nav-list{
-     display: flex;
-     gap: 1rem;
- }
- .nav-list li{
-     list-style: none;
-     padding: 20px;
-     font-size: 1.1rem;
- }
- .nav-list li a{
-     text-decoration: none;
-     color: white;
- }
- 
- .nav-list li a:hover{
-     color: rgb(209, 209, 191);
- }
- .rightnav{
-     width: 50%;
-     /* background-color: cornflowerblue; */
-     text-align: right;
+    
  }
  
  #search{
@@ -86,9 +58,12 @@
      display: flex;
      justify-content: flex-start;
      flex-direction: column;
+     text-align: center;
+     padding-top: 10%;
  }
  .secondhalf{
      width: 30%;
+     
  }
  
  .secondhalf img{
@@ -96,7 +71,9 @@
      border: 3px solid white;
      border-radius: 150px;
      display: block;
-     margin: auto;
+    margin-left: 120%;
+    margin-top: 10%;
+     
  }
  
  .text-big{
@@ -107,28 +84,9 @@
      font-size: 1.2rem;
      margin-bottom: 1rem;
  }
- .btn{
-     padding: 8px 20px;
-     margin: 7px 0;
-     border: 2px solid white;
-     border-radius: 5px;
-     font-size: 18px;
-     background: none;
-     color: white;
-     cursor: pointer;
  
- }
  
- .btn-s{
-     display: flex;
-     align-self: flex-start;
- }
- .btn-sm{
-     margin-right: 10px;
-     /* padding: 6px 10px; */
-     border-radius: 5px;
-     /* vertical-align: middle; */
- }
+ 
  
  /* remaining sections styling */
  .section{
