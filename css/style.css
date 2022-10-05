@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
@@ -6,16 +7,7 @@
   padding: 0;
 }
 
-/* navigation styling */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+
 .logo {
   width: 10rem;
   display: flex;
@@ -292,3 +284,4 @@ footer ul {
   list-style: none;
   justify-content: center;
 }
+
