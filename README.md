@@ -1,4 +1,4 @@
-# Hacktoberfest 2021
+# Hacktoberfest 2022
 
 <div align="center">
   <img src="img/1080x360.jpg" />
