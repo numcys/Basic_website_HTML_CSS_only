@@ -6,6 +6,8 @@
 Follow the README below to get started!
 # This is a website designed with HTML5 and CSS3 only.
 
+#Please star the repository if you think it is beginner friendly.
+
 
 ## Getting Started
 
