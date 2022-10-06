@@ -32,6 +32,9 @@ nav{
   border: 3px solid #ccc;
   border-radius: 50px;
 }
+
+
+
 /* List and search button styling */
 .main-menu {
   display: flex;
@@ -131,6 +134,8 @@ nav{
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
+
+
 
 /* remaining sections styling */
 .section {
@@ -281,23 +286,25 @@ footer {
   border-radius: 8px;
 }
 
-.icons {
+.icons  {
   width: 100%;
   position: absolute;
   text-align: center;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .fa-brands,
 .fab {
   font-weight: 400;
-  margin: 12px;
+  margin: 20px;
   padding: 2px;
   margin-top: 32px;
   cursor: pointer;
 }
-
+.footer-list{
+  margin: 400px;
+}
 footer ul {
 
   width: 100%;
