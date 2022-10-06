@@ -33,6 +33,9 @@ nav{
   border: 3px solid #ccc;
   border-radius: 50px;
 }
+
+
+
 /* List and search button styling */
 .main-menu {
   display: flex;
@@ -133,6 +136,8 @@ nav{
   margin-bottom: 1rem;
 }
 
+
+
 /* remaining sections styling */
 .section {
   display: flex;
@@ -174,7 +179,8 @@ nav{
 }
 .contributors-2022 {
   font-family: "poppins", sans-serif;
-  height: 400px;
+
+  height: 600px;
   width: 600px;
   margin: 40px 0px;
   background-color: #1d2d44;
@@ -303,23 +309,25 @@ footer {
   border-radius: 8px;
 }
 
-.icons {
+.icons  {
   width: 100%;
   position: absolute;
   text-align: center;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .fa-brands,
 .fab {
   font-weight: 400;
-  margin: 12px;
+  margin: 20px;
   padding: 2px;
   margin-top: 32px;
   cursor: pointer;
 }
-
+.footer-list{
+  margin: 400px;
+}
 footer ul {
 
   width: 100%;
