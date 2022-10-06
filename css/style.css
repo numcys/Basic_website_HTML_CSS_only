@@ -26,6 +26,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .logo img {
   width: 33%;
@@ -207,7 +208,29 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
+  position: relative;
 }
+
+/* hover effect starts  */
+
+
+a:after{
+  content: '';
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.4s;
+}
+
+a:hover::after{
+  width: 100%;
+}
+
+/* hover effect ends  */
+
 .inner-box1 a:hover {
   text-decoration: underline;
   color: #e7c6ff;
