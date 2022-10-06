@@ -5,8 +5,22 @@
   margin: 0;
   padding: 0;
 }
-
-
+/* Header styling */
+nav{
+  width: 100%;
+  height: 8vh;
+}
+.header-div{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+/* Logo styling */
 .logo {
   width: 10rem;
   display: flex;
@@ -18,36 +32,52 @@
   border: 3px solid #ccc;
   border-radius: 50px;
 }
-.nav-list {
+/* List and search button styling */
+.main-menu {
   display: flex;
-  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
 }
-.nav-list li {
+
+.menu a {
   list-style: none;
-  padding: 20px;
-  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  padding: 0px 25px;
+  margin-top: 10px;
+  font-size: 20px;
 }
-.nav-list li a {
+
+.menu a:first-child {
+  font-size: 25px;
+}
+
+.menu a:hover {
+  font-size: 25px;
   text-decoration: none;
   color: white;
 }
+.main-menu input {
+  width: 70%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+  left: 20px;
+}
 
-.nav-list li a:hover {
-  color: rgb(209, 209, 191);
-}
-.rightnav {
-  width: 50%;
-  /* background-color: cornflowerblue; */
-  text-align: right;
+.main-menu button {
+  width: 20%;
+  background: white;
+  border: none;
+  margin-left: 2px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
 }
 
-#search {
-  font-size: 20px;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 8px;
-  margin: 7px;
-}
+
 
 /* background styling */
 .background {
@@ -59,6 +89,7 @@
 /* firstsection / hero section styling */
 .firstsection {
   height: 100vh;
+  position: relative;
 }
 
 .box-main {
@@ -88,6 +119,8 @@
   border-radius: 150px;
   display: block;
   margin: auto;
+  position: relative;
+  margin-top: 30px;
 }
 
 .text-big {
@@ -140,7 +173,7 @@
 }
 .contributors-2022 {
   font-family: "poppins", sans-serif;
-  height: 400px;
+  height: 600px;
   width: 600px;
   margin: 40px 0px;
   background-color: #1d2d44;
@@ -184,13 +217,75 @@ a {
 footer {
   background-color: black;
   color: white;
-  margin-bottom: -2rem;
-  width: 100vw;
+  width: 100%;
+    height: 60vh;
 }
 
 .foot {
   display: flex;
-  justify-content: center;
+  position: relative;
+}
+.bottom {
+  width: 80%;
+  border: 2px solid white;
+  display: flex;
+  position: absolute;
+  padding: 10px 20px;
+  margin: 50px 100px;
+  height: 27vh;
+  text-align: center;
+}
+
+.newsletter {
+  width: 50%;
+  margin: 10px;
+  color: white;
+}
+
+.newsletter h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  line-height: 10px;
+  font-size: 1em;
+}
+
+.subscribe {
+  width: 40%;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.subscribe input {
+  width: 40%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+  color: gray;
+}
+
+.subscribe button {
+  width: 25%;
+  padding: 10px;
+  color: white;
+  background-color: #e74c3c;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.icons {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
 }
 
 .fa-brands,
@@ -199,9 +294,22 @@ footer {
   margin: 12px;
   padding: 2px;
   margin-top: 32px;
+  cursor: pointer;
 }
 
 footer ul {
+
+  width: 100%;
+    margin: 10px;
+    margin-top: 300px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
   font-weight: bold;
   font-size: 1em;
   display: flex;
@@ -242,6 +350,7 @@ footer ul {
 ::-webkit-scrollbar-thumb {
   background: #000000;
   border-radius: 5px;
+
 }
 
 ::-webkit-scrollbar-thumb:hover {
