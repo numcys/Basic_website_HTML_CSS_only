@@ -1,6 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
+:root{
+  --primary-colour:rgb(21, 23, 26);
+  --secondary-colour:aliceblue;
+}
+.light-mode{
+ --primary-colour:aliceblue;
+ --secondary-colour:rgb(21, 23, 26);
+}
+
+#darkmode-icon {
+  cursor: pointer;
+  border: none;
+}
+
+body{
+  background-color: var(--primary-colour);
+}
+
+.section{
+  background-color: var(--secondary-colour);
+  color: var(--primary-colour);
+  margin: 0;
+padding: 0;
+width: 100%;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +37,16 @@ nav{
   width: 100%;
   height: 8vh;
 }
-.header-div {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+
+.header-div{
+    width: 100%;
+    background-color:var(--primary-colour);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 /* Logo styling */
 .logo {
@@ -29,7 +57,7 @@ nav{
 }
 .logo img {
   width: 33%;
-  border: 3px solid #ccc;
+  border: 3px solid var(--secondary-colour);
   border-radius: 50px;
 }
 
@@ -43,7 +71,7 @@ nav{
 .menu a {
   list-style: none;
   text-decoration: none;
-  color: white;
+  color:var(--secondary-colour);
   padding: 0px 25px;
   margin-top: 10px;
   font-size: 20px;
@@ -56,7 +84,7 @@ nav{
 .menu a:hover {
   font-size: 25px;
   text-decoration: none;
-  color: white;
+  color: var(--secondary-colour);
 }
 .main-menu input {
   width: 70%;
@@ -70,7 +98,7 @@ nav{
 
 .main-menu button {
   width: 20%;
-  background: white;
+  background:var(--secondary-colour);
   border: none;
   margin-left: 2px;
   outline: none;
@@ -96,7 +124,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+  color:#fff;
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 50%;
   margin: auto;
@@ -114,7 +142,7 @@ nav{
 
 .secondhalf img {
   width: 90%;
-  border: 3px solid white;
+  border: 3px solid var(--secondary-colour);
   border-radius: 150px;
   display: block;
   margin: auto;
@@ -176,7 +204,7 @@ nav{
   height: 600px;
   width: 600px;
   margin: 40px 0px;
-  background-color: #1d2d44;
+  background-color: var(--primary-colour);
   padding: 25px;
   border-radius: 20px;
   box-shadow: 0 0 5px 10px #48abe0;
@@ -199,24 +227,24 @@ nav{
   padding: 5px;
 }
 ul li::marker {
-  color: white;
+  color: var(--secondary-colour);
   font-size: 1.5rem;
 }
 a {
   font-weight: 600;
   text-decoration: none;
-  color: #fff;
+  color:var(--secondary-colour);
   font-size: 1.5rem;
 }
 .inner-box1 a:hover {
   text-decoration: underline;
-  color: #e7c6ff;
+  color:var(--secondary-colour);
 }
 
 /* footer section */
 footer {
-  background-color: black;
-  color: white;
+  background-color:var(--primary-colour);
+  color:var(--secondary-colour);
   width: 100%;
   height: 60vh;
 }
@@ -227,7 +255,7 @@ footer {
 }
 .bottom {
   width: 80%;
-  border: 2px solid white;
+  border: 2px solid sec;
   display: flex;
   position: absolute;
   padding: 10px 20px;
@@ -239,7 +267,7 @@ footer {
 .newsletter {
   width: 50%;
   margin: 10px;
-  color: white;
+  color:var(--secondary-colour);
 }
 
 .newsletter h1 {
@@ -267,13 +295,13 @@ footer {
   outline: none;
   font-size: 15px;
   border-radius: 8px;
-  color: gray;
+  color:var(--secondary-colour);
 }
 
 .subscribe button {
   width: 7em;
   padding: 10px;
-  color: white;
+  color:var(--secondary-colour);
   background-color: #e74c3c;
   border: none;
   outline: none;
@@ -355,7 +383,7 @@ footer ul {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background:var(--primary-colour);
   border-radius: 5px;
 }
 
