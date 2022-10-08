@@ -37,6 +37,7 @@ nav{
   width: 100%;
   height: 8vh;
 }
+
 .header-div{
     width: 100%;
     background-color:var(--primary-colour);
@@ -59,8 +60,6 @@ nav{
   border: 3px solid var(--secondary-colour);
   border-radius: 50px;
 }
-
-
 
 /* List and search button styling */
 .main-menu {
@@ -106,8 +105,6 @@ nav{
   font-size: 15px;
   border-radius: 8px;
 }
-
-
 
 /* background styling */
 .background {
@@ -161,8 +158,6 @@ nav{
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
-
-
 
 /* remaining sections styling */
 .section {
@@ -251,7 +246,7 @@ footer {
   background-color:var(--primary-colour);
   color:var(--secondary-colour);
   width: 100%;
-    height: 60vh;
+  height: 60vh;
 }
 
 .foot {
@@ -276,6 +271,7 @@ footer {
 }
 
 .newsletter h1 {
+  text-align: center;
   font-size: 2.5em;
   margin-bottom: 10px;
 }
@@ -303,22 +299,22 @@ footer {
 }
 
 .subscribe button {
-  width: 25%;
+  width: 7em;
   padding: 10px;
   color:var(--secondary-colour);
   background-color: #e74c3c;
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 1rem;
   border-radius: 8px;
 }
 
-.icons  {
+.icons {
   width: 100%;
   position: absolute;
   text-align: center;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 32vh;
 }
 
 .fa-brands,
@@ -329,22 +325,22 @@ footer {
   margin-top: 32px;
   cursor: pointer;
 }
-.footer-list{
-  margin: 400px;
+.footer-list {
+  text-align: center;
+  padding: 1em;
 }
 footer ul {
-
   width: 100%;
-    margin: 10px;
-    margin-top: 300px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.2em;
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    justify-content: center;
-    cursor: pointer;
+  margin: 10px;
+  margin-top: 300px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  cursor: pointer;
   font-weight: bold;
   font-size: 1em;
   display: flex;
@@ -353,24 +349,28 @@ footer ul {
   justify-content: center;
   flex-wrap: wrap;
 }
+.footer-list  a{
+  text-decoration: none;
+  color:white;
 
-/* media queries */
-@media (max-width: 700px){
-    .section{
-        flex-direction: column-reverse;
-    }
 }
 
-@media (max-width: 600px){
-    .contributors-2022{
-        width: 100%;
-        margin-left: 0;
-        border-radius: 0;
-    }
+/* media queries */
+@media (max-width: 700px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .contributors-2022 {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+  }
 }
 
 /* scroll bar */
-
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -378,16 +378,15 @@ footer ul {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(199, 199, 199, 0.263); 
+  box-shadow: inset 0 0 5px rgba(199, 199, 199, 0.263);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background:var(--primary-colour);
   border-radius: 5px;
-
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(83, 138, 220); 
+  background: rgb(83, 138, 220);
 }
