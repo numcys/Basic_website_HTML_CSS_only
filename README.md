@@ -1,10 +1,12 @@
-# Hacktoberfest 2021
+# Hacktoberfest 2022
 
 <div align="center">
   <img src="img/1080x360.jpg" />
   </div>
 Follow the README below to get started!
 # This is a website designed with HTML5 and CSS3 only.
+
+#Please star the repository if you think it is beginner friendly.
 
 
 ## Getting Started
