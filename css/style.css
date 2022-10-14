@@ -23,8 +23,8 @@ body{
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
   margin: 0;
-padding: 0;
-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
 
@@ -164,11 +164,11 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
-  padding: 10px 0px;
   font-family: "Ubuntu", sans-serif;
-  gap: 1rem;
+  padding-left: 10px;
+  
 }
 
 .section-left {

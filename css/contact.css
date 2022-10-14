@@ -1,0 +1,118 @@
+body{
+    background-image: url('/img/city.png'); 
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+main
+{
+display: flex;
+flex-direction: column;
+
+width: 90%;
+margin: auto;
+
+}
+
+.title
+{
+font-size: 50px;
+font-weight: bold;
+padding: 1.5% 0;
+color: #ffffff;
+text-align: center;
+}
+
+.title-info
+{
+padding-bottom: 2%;
+color: #ffffff;
+text-align: center;
+}
+
+.form
+{
+display: flex;
+flex-direction: column;
+width: 60%;
+padding: 2%;
+
+}
+
+.input-group, .textarea-group
+{
+padding: 1% 0;
+color: darkgray;
+}
+
+input, textarea
+{
+color: inherit;
+width: 100%;
+border: none;
+border-bottom: 1px solid darkgray;
+padding: 1.5%;
+font-size: 20px;
+}
+
+input:focus, textarea:focus
+{
+outline: transparent;
+border-bottom: 2px solid darkgray;
+}
+
+input::placeholder, textarea::placeholder
+{
+color: transparent;
+}
+
+label
+{
+color: #212121;
+position: relative;
+left: 0.5em;
+top: -2em;
+cursor: auto;
+transition: 0.3s ease all;
+}
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+top: -5em;
+color: black;
+font-size: 15px;
+}
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+top: -10.5em;
+color: darkgrey;
+font-size: 15px;
+}
+
+.button-div
+{
+display: flex;
+align-items: center;
+}
+
+button
+{
+padding: 2%;
+width: 25%;
+border: 1px solid;
+border-color: #212121;
+border-radius: 5px;
+font-family: inherit;
+font-size: 18px;
+background-color: paleturquoise;
+color: inherit;
+box-shadow: 0 0 10px #212121;
+}
+
+button:hover
+{
+background-color: #424242;
+color: #ffffff;
+cursor: pointer;
+}
