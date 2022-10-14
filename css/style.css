@@ -44,7 +44,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: flex;
     top: 0;
     z-index: 1;
 }
@@ -56,9 +56,9 @@ nav{
   align-items: center;
 }
 .logo img {
-  width: 33%;
+  width: 25%;
   border: 3px solid var(--secondary-colour);
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 /* List and search button styling */
@@ -131,7 +131,7 @@ nav{
 }
 
 .firsthalf {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -141,10 +141,10 @@ nav{
 }
 
 .secondhalf img {
-  width: 90%;
+  width: 100%;
   border: 3px solid var(--secondary-colour);
   border-radius: 150px;
-  display: block;
+  display: flex;
   margin: auto;
   position: relative;
   margin-top: 30px;
@@ -164,7 +164,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
   padding: 10px 0px;
   font-family: "Ubuntu", sans-serif;
@@ -177,7 +177,7 @@ nav{
 .fluid-img img {
   width: 250px;
   padding: 7px;
-  border: 2px solid #631e1e;
+  border: 2px solid darkslateblue;
   border-radius: 134px;
 }
 .sectiontag {
@@ -207,12 +207,12 @@ nav{
   background-color: var(--primary-colour);
   padding: 25px;
   border-radius: 20px;
-  box-shadow: 0 0 5px 10px #48abe0;
+  box-shadow: 0 0 5px 10px darkslateblue;
   margin-left: 10%;
 }
 .contributors-heading {
   font-size: 2rem;
-  color: #90e0ef;
+  color: darkslategrey;
 }
 
 .inner-box1 ul {
