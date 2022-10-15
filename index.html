@@ -8,6 +8,7 @@
     <title>Project</title>
     <link rel="icon" type="image/x-icon" href="img/online-shop.jpg">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/27551d6060.js" crossorigin="anonymous"></script>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -17,40 +18,30 @@
 </head>
 
 <body class="light-mode">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <div class="logo"><img src="img/online-shop.jpg" alt="" /><img src="/img/moon.png" alt="" id="darkmode-icon"></div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <ul class="navbar-nav ms-auto">
-        <li class="navbar-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="navbar-item">
-          <a class="nav-link" href="Contact.html">Contact us</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
+  <nav>
+    <div class="topnav" id="myTopnav">
+        <div class="logo"><img src="img/online-shop.jpg" alt="" />
+          <img src="/img/moon.png" alt="" id="darkmode-icon">
+        </div>
+      <div class="nvl">
+      <a class="nav-link" href="#home" class="active">Home</a>
+      <a class="nav-link" href="#news">About</a>
+      <a class="nav-link" href="#contact">Services</a>
+      <a class="nav-link" href="Contact.html">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <form class="srch" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-dark" type="submit"><img style="width: 26px;" src="img/search.png" alt=""></button>
       </form>
     </div>
     </div>
-    </div>
   </nav>
 
-  </header>
   <section class="firstsection background">
-
+  
     <div class="  box-main">
       <div class="firsthalf">
         <div class="secondhalf">
@@ -330,6 +321,7 @@
   
 
   <script src="console.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
