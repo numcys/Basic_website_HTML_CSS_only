@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/27551d6060.js" crossorigin="anonymous"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <div class="logo"><img src="img/online-shop.jpg" alt="" />
+                <img src="/img/moon.png" alt="" id="darkmode-icon">
+            </div>
+            <div class="nvl">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="#news">About</a>
+                <a class="nav-link" href="#contact">Services</a>
+                <a class="nav-link" href="Contact.html" class="active">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="srch" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit"><img style="width: 26px;" src="img/search.png"
+                            alt=""></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="title">Contact us</div>
+        <div class="title-info">We'll get back to you soon!</div>
+
+        <form action="" method="" class="form">
+            <div class="input-group">
+                <input type="text" name="first_name" id="first-name" placeholder="First name">
+                <label for="first-name">First name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                <label for="last-name">Last name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                <label for="e-mail">e-mail</label>
+            </div>
+
+            <div class="textarea-group">
+                <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                <label for="message">Message</label>
+            </div>
+
+            <div class="button-div">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
