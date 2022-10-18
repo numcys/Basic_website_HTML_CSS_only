@@ -169,7 +169,7 @@ nav{
   max-width: 100%;
   margin: auto;
   font-family: "Ubuntu", sans-serif;
-  padding: 0px 20px;
+  padding: 10px 40px;
   
 }
 
@@ -180,6 +180,7 @@ nav{
 .fluid-img img {
   width: 250px;
   padding: 7px;
+  margin:12px;
   border: 2px solid darkslateblue;
   border-radius: 134px;
 }
@@ -197,6 +198,10 @@ nav{
   padding: 10px;
   margin-left: 100px;
   margin-top: 50px;
+}
+.container_contributor{
+  padding:0 20vw;
+
 }
 .box {
   display: flex;
@@ -282,11 +287,11 @@ footer {
   font-size: 1em;
 }
 
-.subscribe {
+/* .subscribe {
   width: 40%;
   margin: 10px;
   margin-top: 30px;
-}
+} */
 
 .subscribe input {
   width: 40%;
@@ -400,19 +405,21 @@ footer ul {
 /* ===============================  F O O T E R  ==================================== */
 .footer_section{
 
-  margin: 0 auto;
+  width:100%;
 }
 
 /* ===============================  FIRST = F O O T E R  ==================================== */
 
 .subscriber_head{
 
-  background-color: #435978;
+  /* background-color: #435978; */
+  background-color: #9cdda2;
   /* display: flex; */
   display: grid;
   text-align: center;
   width: 100%;
-  height: 70px;
+  padding:12px;
+  box-sizing: border-box;
   grid-template-columns: 1fr 1.5fr 0.5fr;
   grid-template-areas: 
   "head input subscribe";
@@ -427,27 +434,24 @@ footer ul {
 
   margin: auto;
   display: flex;
-  width: 100%;
+  width: 98%;
   grid-area: input;
+
 }
 
 .subscriber_search_bar{
-
-  /* width: 450px; */
-  /* display: block; */
   width: 100%;
   max-width: 100%;
   font-family: inherit;
  
   /* max-width: calc(100% - 50%); */
   color: #435978;
-
   font-weight: 500;
   border-radius:50px 0px 0px 50px;
   border: 0px;
-  padding: 15px 0px 15px 20px;
+  padding: 12px 0px 12px 20px;
 
-  font-size: 14px;
+  font-size: 15px;
   background: #F0F4EF;
  
  
@@ -652,10 +656,6 @@ footer ul {
 
 /* ====================================== MID = F O O T E R  ENDS ======================================= */
 
-
-
-
-
 /* ====================================== LAST = F O O T E R  STARTS ======================================= */
 .subscriber_last{
   background-color: #0048ac;
@@ -704,6 +704,12 @@ margin-bottom: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
+div.subscriber_mid{
+    padding:20px 15px;
+    color:rgb(28, 46, 75);
+    font-family :ubuntu;
+}
+
 
 /* ====================================== LAST = F O O T E R  ENDS ======================================= */
 
@@ -741,7 +747,8 @@ margin-bottom: auto;
      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    }
   
-  .first_para{
+  div.first_para{
+    
     justify-content: center;
     flex-direction: column;
   }
@@ -872,6 +879,11 @@ margin-bottom: auto;
 .copyright-txt{
   width: 100%;
   text-align: center;
+  
+}
+a.copyright{
+  font-family: monospace;
+  font-size:large;
 }
 .copyright {
   display:inline-block;
