@@ -6,6 +6,16 @@
 Follow the README below to get started!
 # This is a website designed with HTML5 and CSS3 only.
 
+##How you can contribute:
+
+#Code: 
+
+--> GO to ISSUES tab and contribute in any previously created issue or create a new issue.
+
+#Non-code
+
+--> You can work toward making the readme and introduction better in the repository. You can also add more data to the website or correct incorrect data.
+
 #Please star the repository if you think it is beginner friendly.
 
 
