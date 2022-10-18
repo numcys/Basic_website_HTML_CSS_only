@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -150,10 +153,12 @@ nav{
 .text-big {
   font-size: 2.2rem;
   margin: 2rem 0 0.7rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .text-small {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* remaining sections styling */
