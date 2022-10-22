@@ -104,47 +104,56 @@ nav{
 }
 
 /* background styling */
-.background {
+.hero {
   background: rgba(0, 0, 0, 0.7) url(../img/city.png);
   background-size: cover;
   background-blend-mode: lighten;
-}
-
-/* firstsection / hero section styling */
-.firstsection {
   height: 100vh;
-  position: relative;
-}
-
-.box-main {
-  height: 70%;
   display: flex;
   justify-content: center;
+  gap: 5%;
   align-items: center;
-  color:#fff;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  max-width: 50%;
-  margin: auto;
 }
 
-.firsthalf {
-  width: 100%;
+.box-welcome {
+  background-color: rgba(226, 238, 255, .6);
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(226, 238, 255, 1);
+  padding: 5%;
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  text-align: center;
+  height: 50vh;
+  width: 50vw;
 }
-.secondhalf {
+
+.box-welcome-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome-text {
+  width: 100%;
+}
+
+.welcome-logo {
   width: 30%;
 }
 
-.secondhalf img {
+.welcome-logo img {
   width: 100%;
+  max-width: 300px;
+  min-width: 175px;
   border: 3px solid var(--secondary-colour);
   border-radius: 150px;
   display: flex;
   margin: auto;
   position: relative;
   margin-top: 30px;
+  opacity: .8;
 }
 
 .text-big {
@@ -154,6 +163,10 @@ nav{
 .text-small {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
+.btn-explore {
+  width: 150px;
 }
 
 /* remaining sections styling */
@@ -712,6 +725,11 @@ div.subscriber_mid{
 
 @media only screen and (max-width: 992px) {
 
+  .box-welcome {
+    padding-top: 25px;
+  }
+
+
   .subscriber_head{
   
       grid-template-columns: 0.5fr 2.5fr 0.5fr;
@@ -725,6 +743,13 @@ div.subscriber_mid{
 
 @media only screen and (max-width: 768px) {
 
+  .text-big {
+    font-size: 1.9rem;
+  }
+
+  .text-small {
+    font-size: 1rem;
+  }
 
   .subscriber_head{
   
@@ -815,8 +840,17 @@ div.subscriber_mid{
   .subscriber_mid{
     grid-template-rows: 0.8fr 1fr;
   }
-  .box-main{
-    max-width: 75%;
+
+  .box-welcome {
+    padding-top: 5px;
+  }
+
+  .text-big {
+    font-size: 1.75rem;
+  }
+
+  .text-small {
+    font-size: 95%;
   }
  
   .subscriber_head{
