@@ -891,6 +891,11 @@ a.copyright{
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+#srch{
+  display: flex;
+  align-items: center;
+}
 /* display: flex;
     align-content: flex-end;
     justify-content: center; */
