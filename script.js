@@ -6,3 +6,12 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  // Preloader
+
+var loader = document.querySelector(".loader")
+window.addEventListener("load", faded);
+
+function faded(){
+    loader.classList.add("disppear");
+}
