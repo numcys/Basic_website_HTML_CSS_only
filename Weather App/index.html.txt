@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="">
+      <form class="" action="/" method="post">
+        <h2>Enter the name of any city</h2>
+        <input id="city" type="text" name="city" value=""><br><br>
+        <button type="submit" name="button">Predict</button>
+      </form>
+    </div>
+  </body>
+</html>
