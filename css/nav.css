@@ -21,10 +21,13 @@
   .topnav a:hover {
     color: rgb(255, 255, 255);
     font-weight: 500;
+    transform: 2s;
+    transform: scale(1.1);
   }
   
   .topnav a.active {
     color: white;
+
   }
   
   .topnav .icon {

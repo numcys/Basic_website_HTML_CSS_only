@@ -57,6 +57,14 @@ nav{
   border: 3px solid var(--secondary-colour);
   border-radius: 100px;
 }
+.logo img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: -1px 1px 1px 1px  white;
+
+}
 
 /* List and search button styling */
 .main-menu {
