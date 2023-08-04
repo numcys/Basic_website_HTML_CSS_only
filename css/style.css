@@ -4,15 +4,18 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 :root{
   --primary-colour:rgb(21, 23, 26);
   --secondary-colour:aliceblue;
+  background-color: black;
 }
 .light-mode{
  --primary-colour:aliceblue;
  --secondary-colour:rgb(21, 23, 26);
+  background-color: black;
 }
 
 #darkmode-icon {
@@ -22,17 +25,20 @@
 
 body{
   background-color: var(--primary-colour);
+  background-color: black;
 }
 
 .section{
   background-color: var(--secondary-colour);
   color: var(--primary-colour);
   width: 100%;
+  background-color: black;
 }
 
 /* Header styling */
 nav{
   width: 100%;
+  background-color: black;
 }
 
 .header-div{
@@ -51,6 +57,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 .logo img {
   width: 25%;
@@ -63,6 +70,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: black;
 }
 
 .menu a {
@@ -108,12 +116,14 @@ nav{
   background: rgba(0, 0, 0, 0.7) url(../img/city.png);
   background-size: cover;
   background-blend-mode: lighten;
+  background-color: black;
 }
 
 /* firstsection / hero section styling */
 .firstsection {
   height: 100vh;
   position: relative;
+  background-color: black;
 }
 
 .box-main {
@@ -125,6 +135,7 @@ nav{
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 50%;
   margin: auto;
+  background-color: black;
 }
 
 .firsthalf {
@@ -132,9 +143,11 @@ nav{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  background-color: black;
 }
 .secondhalf {
   width: 30%;
+  background-color: black;
 }
 
 .secondhalf img {
@@ -150,10 +163,12 @@ nav{
 .text-big {
   font-size: 2.2rem;
   margin: 2rem 0 0.7rem;
+  background-color: black;
 }
 .text-small {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  background-color: black;
 }
 
 /* remaining sections styling */
@@ -165,11 +180,13 @@ nav{
   margin: auto;
   font-family: "Ubuntu", sans-serif;
   padding: 10px 40px;
+  background-color: black;
   
 }
 
 .section-left {
   flex-direction: row-reverse;
+  background-color: black;
 }
 
 .fluid-img img {
@@ -184,6 +201,7 @@ nav{
 }
 .sectionsubtag {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
 }
 
 /* contributing section styles */
@@ -200,6 +218,7 @@ nav{
 }
 .box {
   display: flex;
+  background-color: black;
 }
 .contributors-2022 {
   font-family: "poppins", sans-serif;
@@ -248,11 +267,13 @@ footer {
   color:var(--secondary-colour);
   width: 100%;
   height: 60vh;
+  background-color: black;
 }
 
 .foot {
   display: flex;
   position: relative;
+  background-color: black;
 }
 .bottom {
   width: 80%;
@@ -263,12 +284,14 @@ footer {
   margin: 50px 100px;
   height: 27vh;
   text-align: center;
+  background-color: black;
 }
 
 .newsletter {
   width: 50%;
   margin: 10px;
   color:var(--secondary-colour);
+  background-color: black;
 }
 
 .newsletter h1 {
@@ -316,6 +339,7 @@ footer {
   text-align: center;
   margin: auto;
   margin-top: 32vh;
+  background-color: black;
 }
 
 .fa-brands,
@@ -324,6 +348,7 @@ footer {
   margin:0px 20px;
   padding: 2px;
   cursor: pointer;
+  background-color: black;
 }
 .footer-list {
   text-align: center;
@@ -359,6 +384,7 @@ footer ul {
 @media (max-width: 700px) {
   .section {
     flex-direction: column-reverse;
+    background-color: black;
   }
 }
 
@@ -367,6 +393,7 @@ footer ul {
     width: 100%;
     margin-left: 0;
     border-radius: 0;
+    background-color: black;
   }
 }
 
