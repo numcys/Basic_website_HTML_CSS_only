@@ -57,6 +57,14 @@ nav{
   border: 3px solid var(--secondary-colour);
   border-radius: 100px;
 }
+.logo img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  border-radius: 100%;
+  cursor: pointer;
+  box-shadow: -1px 1px 1px 1px  white;
+
+}
 
 /* List and search button styling */
 .main-menu {
@@ -102,6 +110,16 @@ nav{
   font-size: 15px;
   border-radius: 8px;
 }
+#main-img{
+  margin: auto;
+}
+
+#main-img:hover{
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.4);
+  transform: scale(1.02);
+  transition-duration: 1s;
+
+}
 
 /* background styling */
 .background {
@@ -135,6 +153,7 @@ nav{
 }
 .secondhalf {
   width: 30%;
+  margin: auto;
 }
 
 .secondhalf img {

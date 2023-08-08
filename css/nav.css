@@ -7,6 +7,11 @@
     justify-content: space-between;
     align-items: center;
   }
+  nav:hover{
+    /* transform: scale(); */
+    box-shadow: 10px 10px 10px 10px rgba(40, 40, 40, 0.4);
+    transition-duration: 0.5s;
+  }
   
   .topnav a {
     float: left;
@@ -21,10 +26,13 @@
   .topnav a:hover {
     color: rgb(255, 255, 255);
     font-weight: 500;
+    transform: 2s;
+    transform: scale(1.1);
   }
   
   .topnav a.active {
     color: white;
+
   }
   
   .topnav .icon {
@@ -41,6 +49,12 @@
     margin-top: auto;
     margin-bottom: auto;
    
+  }
+  #srch-bar:hover{
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
   }
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
