@@ -110,6 +110,16 @@ nav{
   font-size: 15px;
   border-radius: 8px;
 }
+#main-img{
+  margin: auto;
+}
+
+#main-img:hover{
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.4);
+  transform: scale(1.02);
+  transition-duration: 1s;
+
+}
 
 /* background styling */
 .background {
@@ -143,6 +153,7 @@ nav{
 }
 .secondhalf {
   width: 30%;
+  margin: auto;
 }
 
 .secondhalf img {
